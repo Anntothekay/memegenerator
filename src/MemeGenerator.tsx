@@ -69,8 +69,8 @@ const MemeGenerator = () => {
   const handleDownload = () => {
     if (canvasRef.current) {
       const link = document.createElement("a");
-      link.href = canvasRef.current.toDataURL("image/jpeg");
-      link.download = "meme.jpg";
+      link.href = canvasRef.current.toDataURL(`image/${imageFormat}`);
+      link.download = `meme.${imageFormat}`;
       link.click();
     }
   };
