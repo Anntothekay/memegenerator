@@ -4,7 +4,7 @@ const MemeGenerator = () => {
   const [image, setImage] = useState<string | null>(null);
   const [topText, setTopText] = useState<string>("");
   const [bottomText, setBottomText] = useState<string>("");
-  const [fontSize, setFontSize] = useState<number>(32);
+  const [fontSize, setFontSize] = useState<number>(70);
   const [fontColor, setFontColor] = useState<string>("#ffffff");
   const [fontFamily, setFontFamily] = useState<string>("Arial");
   const [imageFormat, setImageFormat] = useState<string>("jpeg");
