@@ -23,7 +23,7 @@ To get a local copy of this project up and running, follow these steps:
 
 1. Clone the repository:
 ```shell
-git clone [https://github.com/your-username/meme-generator.git](https://github.com/Anntothekay/memegenerator)
+git clone https://github.com/Anntothekay/memegenerator
 ```
    
 2. Navigate to the project directory
