@@ -48,9 +48,3 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, p
 3. Commit your changes: git commit -m 'Add some feature'.
 4. Push to the branch: git push origin feature/your-feature.
 5. Open a pull request.
-
-## Tech used
-- React
-- TypeScript
-- HTML5 Canvas
-- CSS
