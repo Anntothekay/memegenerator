@@ -33,8 +33,8 @@ const MemeGenerator = () => {
           context.fillStyle = fontColor;
           context.textAlign = "center";
 
-          const topTextPosition = canvas.height * 0.1 + fontSize / 2;
-          const bottomTextPosition = canvas.height * 0.9 + fontSize / 2;
+          const topTextPosition = canvas.height * 0.09 + fontSize / 2;
+          const bottomTextPosition = canvas.height * 0.87 + fontSize / 2;
           context.fillText(topText, canvas.width / 2, topTextPosition);
           context.fillText(bottomText, canvas.width / 2, bottomTextPosition);
         };
