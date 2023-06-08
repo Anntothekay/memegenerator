@@ -2,6 +2,9 @@
 
 A web application for creating memes. This application allows users to upload an image, add custom text to the top and bottom areas of the image, customize the font size, font color, and font family, and then download the generated meme in various formats (JPEG, PNG, GIF).
 
+## Web URL
+https://pro-meme-generator.netlify.app/
+
 ## Features
 
 - Upload image: Select and upload an image from your local device as the basis for the meme.
@@ -48,3 +51,11 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, p
 3. Commit your changes: git commit -m 'Add some feature'.
 4. Push to the branch: git push origin feature/your-feature.
 5. Open a pull request.
+
+## Screenshots
+
+### Mobile
+![Screenshot of meme generator app on mobile](https://i.ibb.co/4T0pZBY/Fire-Shot-Capture-065-Meme-Generator-0-0-1-localhost.png)
+
+### Desktop
+![Screenshot of meme generator app on desktop](https://i.ibb.co/gj9Dbnc/Fire-Shot-Capture-066-Meme-Generator-0-0-1-localhost.png)
