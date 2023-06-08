@@ -2,6 +2,9 @@
 
 A web application for creating memes. This application allows users to upload an image, add custom text to the top and bottom areas of the image, customize the font size, font color, and font family, and then download the generated meme in various formats (JPEG, PNG, GIF).
 
+## Web URL
+https://pro-meme-generator.netlify.app/
+
 ## Features
 
 - Upload image: Select and upload an image from your local device as the basis for the meme.
@@ -48,3 +51,11 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, p
 3. Commit your changes: git commit -m 'Add some feature'.
 4. Push to the branch: git push origin feature/your-feature.
 5. Open a pull request.
+
+## Screenshots
+
+### Mobile
+![Screenshot of meme generator app on mobile]([http://url/to/img.png](https://previews.dropbox.com/p/thumb/AB7LHSbJUdwGrdE4-OR_ZZpsiwiU891IUkxX_XD0XJzVrAkPj6aHIMPgueW3UiWVq7cXdaeOU7nbpEBhrviWh8fZRFPKVmbPM5j3QyWOIDXWwHgIyKpkZaAbBMeBMqcTZa2WpfhHIzWaW9vfInICbqIm-rjSjLsvu0sCO6grYOOu0kR5eFq2rI-KfCUVM3jnFTAx7Oof8lEsmileUwzmKhTqqedOuYKxgIFLnmGbzJHtBY0ldSAdYapJCz7yroeWxtMbVW0LAKo8SxeIWJ7WTDcTucoBa_A62_T3lleojU_gJGCjqY860w4iefccjoDaPzI1V2KbmuSSFbxR3OlW03ss6gceBayH4vG2s6RspEIviCNGoaj92b8ATNG3Iclwfkk/p.png))
+
+### Desktop
+![Screenshot of meme generator app on desktop]([https://previews.dropbox.com/p/thumb/AB4JiYGIv5wNt2_EFHSpQotg4Dx0sbL8EV7ZELl_kV6vmSXmkaZQpDVicckw6d6AmcOHco_USGvsA_SwhWMYEJKDbUBkweYy5-B0QICTdfB4Rzy8p77AfdSCQTnza0P8hfNSHE8TqJDbU9j4YJqRKZDhUhfyPvztXnJN5OF9L56FAV-t4rFBJOSuwPxIb4E1bqvAWFlekGkbX_B83YIpTIL2RcsFtWfFyrwBFZMd4M-kSX3S0WMOVsTpPP6orYjKSru5bkMIcUqYUbh0ojwuL86gackwXs_JrNIm5ojWE8a5XcqsZDCqbHMts3XwNKAsG9qfmfmeSWYsqrYI19F_avtijhlvz82Fwvyjmh-BqAHH23Bcrn1bEckKbQ6UIWxGzX0/p.png))
