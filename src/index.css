@@ -39,6 +39,7 @@ body {
   gap: 2rem;
 }
 .upload,
+.hr,
 .content .form,
 .content .canvas {
   padding: 0 1rem;

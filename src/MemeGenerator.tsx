@@ -93,7 +93,9 @@ const MemeGenerator = () => {
       </div>
       {image && (
         <>
-          <hr />
+          <div className="hr">
+            <hr />
+          </div>
           <div className="content">
             <div className="form">
               <h2>Generate:</h2>
