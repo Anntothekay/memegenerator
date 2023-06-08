@@ -30,7 +30,7 @@ body {
   min-width: 320px;
   max-width: 1280px;
   min-height: 100vh;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .content {
@@ -38,15 +38,23 @@ body {
   flex-flow: row wrap;
   gap: 2rem;
 }
-.content div {
-  flex-grow: 1;
+.upload,
+.content .form,
+.content .canvas {
+  padding: 0 1rem;
+}
+.content .form {
+  width: calc(40% - 2rem);
+}
+.content .canvas {
+  width: calc(60%);
 }
 /* .form {
   min-width: 500px;
-}
+}*/
 canvas {
-  width: 500px;
-} */
+  max-width: 100%;
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -62,8 +70,13 @@ hr {
 }
 input:not([type="color"]),
 select {
+  box-sizing: border-box;
   padding: 0.4rem 0.5rem;
   margin-bottom: 0.3rem;
+}
+input:not([type="color"]) {
+  display: block;
+  width: 100%;
 }
 input[type="color"] {
   margin-bottom: 0.6rem;
@@ -89,9 +102,6 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-canvas {
-  max-width: 700px;
-}
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -100,5 +110,24 @@ canvas {
   }
   a:hover {
     color: #747bff;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  hr {
+    margin: 1rem 0;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.35rem;
+  }
+  .content {
+    gap: 1rem;
+  }
+  .content .form,
+  .content .canvas {
+    width: 100%;
   }
 }

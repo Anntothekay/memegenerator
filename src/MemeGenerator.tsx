@@ -81,9 +81,8 @@ const MemeGenerator = () => {
 
   return (
     <div>
-      <h1>Meme Generator</h1>
-
       <div className="upload">
+        <h1>Meme Generator</h1>
         <label htmlFor="imageUpload">Upload Image: </label>
         <input
           type="file"
