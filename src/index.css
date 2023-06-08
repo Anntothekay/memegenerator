@@ -42,6 +42,7 @@ body {
 .content .form,
 .content .canvas {
   padding: 0 1rem;
+  box-sizing: border-box;
 }
 .content .form {
   width: calc(40% - 2rem);
@@ -67,6 +68,7 @@ hr {
   border: none;
   border-top: solid 1px rgba(122, 27, 247, 0.5);
   margin: 1.5rem 0 2.5rem;
+  padding: 0 1rem;
 }
 input:not([type="color"]),
 select {
